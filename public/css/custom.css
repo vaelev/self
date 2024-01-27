@@ -1,0 +1,24 @@
+        body {
+            background-color: #131313;
+        }
+
+        /* For Webkit (Chrome, Safari, etc.) */
+        ::-webkit-scrollbar {
+            width: 12px; /* width of the entire scrollbar */
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #131313; /* color of the tracking area */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #888; /* color of the scroll thumb */
+            border-radius: 6px; /* roundness of the scroll thumb */
+            border: 3px solid #2c2c2c; /* creates padding around scroll thumb */
+        }
+
+        /* For IE and Edge */
+        body {
+            scrollbar-width: thin; /* "auto" or "thin" */
+            scrollbar-color: #888 #131313; /* thumb and track color */
+        }
